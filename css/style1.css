@@ -1,8 +1,15 @@
-.jumbotron
+/*.jumbotron
 {
 	background: #750CA1;
 	color: floralwhite;
 	padding: 70px 200px 70px 10px;
+	margin: 0px auto;
+}*/
+.jumbotron
+{
+	background: #750CA1;
+	color: floralwhite;
+	padding: 70px 30px 70px 30px;
 	margin: 0px auto;
 }
 
@@ -24,6 +31,7 @@
 	margin: 0 px auto;
 	padding: 0px auto;
 }
+
 
 .navbar-dark{
 	background: #512DA8;
