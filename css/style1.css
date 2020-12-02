@@ -2,7 +2,7 @@
 {
 	background: #750CA1;
 	color: floralwhite;
-	padding: 70px 30px 70px 30px;
+	padding: 70px 200px 70px 10px;
 	margin: 0px auto;
 }
 
@@ -17,4 +17,19 @@
 	font-size:80%;
 	margin:0px;
 	color:#0f0f0f;
+}
+
+.row-header
+{
+	margin: 0 px auto;
+	padding: 0px auto;
+}
+
+.navbar-dark{
+	background: #512DA8;
+}
+
+@media (min-width: 540px)
+{
+
 }
