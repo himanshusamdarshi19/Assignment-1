@@ -21,13 +21,13 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="41"></a>
+            <a class="navbar-brand mr-auto" href="#"><img src="img/logo.png" height="30" width="41"></a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span>Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span>About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span>Menu</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span>Contact</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -42,6 +42,12 @@
                 <div class="col-12 col-sm align-self-center">
                     <img src="img/logo.png" class="img-fluid">
                 </div>
+                &nbsp
+                <div class="col-12 col-sm align-self-center">
+                    <button type="block" class="alert alert-warning" style="background:#FCD70C;">
+                        <a href="#Reserve" type="button" class="alert-link">Reserve Table</a>
+                    </button>
+                </div>
             </div>
         </div>
     </header>
@@ -55,7 +61,7 @@
                 <div class="media">
                     <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="uthappizza">
                     <div class="media-body">
-                        <h2 class="mt-0">Uthappizza</h2>
+                        <h2 class="mt-0">Uthappizza <span class="badge badge-danger col-sm-content">HOT</span>&nbsp<span class="badge badge-pill badge-secondary col-sm-content">$4.99</span></h2>
                         <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>  
                     </div>                  
                 </div>
@@ -70,8 +76,8 @@
             <div class="col col-sm col-md">
                 <div class="media">
                     <div class="media-body">    
-                        <h2 class="mt-0">Weekend Grand Buffet</h2>
-                        <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                        <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                        <p class="d-none d-lg-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
                     </div>
                     <img class="d-flex ml-3 img-thumbnail align-self-center" src="img/buffet.png" alt="buffet">
                 </div>
@@ -88,9 +94,72 @@
                     <div class="media-body">
                         <h2 class="mt-0">Alberto Somayya</h2>
                         <h4>Executive Chef</h4>
-                        <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+                        <p class="d-none d-lg-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div class="row row-content align-items-center col-sm-8"  id="Reserve">
+            <div class="card" style="width: 100%">
+                <h3 class="card-header bg-warning text-white" id="Reserve">Reserve a Table</h3>
+                <div class="card-body">
+
+                    <form>
+                        <div class="form-group row" id="Reserve">
+                            <label for="Number of Guests" class="col-md-2 col-form-label">Number of Guests</label>
+                            <div>&nbsp&nbsp&nbsp&nbsp</div>
+                            <div class="custom-control custom-radio ">
+                              <label class="custom-control-label" for="defaultUnchecked">1 </label>
+                              <input type="radio" class="custom-control-input" id="defaultUnchecked" name="defaultExampleRadios">
+                            </div>
+                            <div>&nbsp&nbsp</div>
+
+                            <!-- Default checked -->
+                            <div class="custom-control custom-radio">
+                              <label class="custom-control-label" for="defaultUnchecked">2 </label>
+                              <input type="radio" class="custom-control-input" id="defaultUnchecked" name="defaultExampleRadios">
+                            </div>
+                            <div>&nbsp&nbsp</div>
+                            <div class="custom-control custom-radio">
+                              <label class="custom-control-label" for="defaultUnchecked">3 </label>
+                              <input type="radio" class="custom-control-input" id="defaultUnchecked" name="defaultExampleRadios">
+                            </div>
+                            <div>&nbsp&nbsp</div>
+                            <!-- Default checked -->
+                            <div class="custom-control custom-radio">
+                              <label class="custom-control-label" for="defaultUnchecked">4 </label>
+                              <input type="radio" class="custom-control-input" id="defaultUnchecked" name="defaultExampleRadios">
+                            </div>
+                            <div>&nbsp&nbsp</div>
+                            <div class="custom-control custom-radio">
+                              <label class="custom-control-label" for="defaultUnchecked">5 </label>
+                              <input type="radio" class="custom-control-input" id="defaultUnchecked" name="defaultExampleRadios">
+                            </div>
+                            <div>&nbsp&nbsp</div>
+                            <div class="custom-control custom-radio">
+                              <label class="custom-control-label" for="defaultUnchecked">6</label>
+                              <input type="radio" class="custom-control-input" id="defaultUnchecked" name="defaultExampleRadios">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="Date and Time" class="col-md-2 col-form-label">Date and Time</label>
+                            <div class="col-12 col-md-5">
+                                <input type="Date" class="form-control" id="Date" name="Date" placeholder="Date">
+                            </div>
+                            <div class="col-12 col-md-5">
+                                <input type="Time" class="form-control" id="Time" name="Time" placeholder="Time">
+                            </div>
+                        </div>
+                        <div class="form-group row offset-lg-2">
+                            
+                            &nbsp&nbsp
+                            <button type="block" class="btn btn-primary mr-auto" id="new">
+                              Reserve
+                            </button>            
+                        </div>
+                    </form>
+                </div>                  
             </div>
         </div>
     </div>
