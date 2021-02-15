@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/style3.css">
+    <title>Menu</title>
+
+</head>
+
+<body>
+	<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+        	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="./index.html"><img src="img/logo.png" height="30" width="41"></a>
+            <div class="collapse navbar-collapse" id="Navbar">
+	            <ul class="navbar-nav mr-auto">
+	                <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+	                <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
+	                <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
+	                <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+	            </ul>
+        	</div>
+        </div>
+    </nav>
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-6">
+                    <h1>Ristorante con Fusion</h1>
+                    <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
+                </div>
+                <div class="col-12 col-sm align-self-center">
+                	<img src="img/logo.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </header>
+    <marquee class="card col text-responsive" width="60%" direction="right" height="50px">
+         <h2> Menu - List </h2>
+    </marquee>
+    <section id="main">
+    <div id="myBtnContainer">
+      <button class="btn" onclick="filterSelection('all')"> Show all</button>
+      <button class="btn" onclick="filterSelection('vegi')"> VEG</button>
+      <button class="btn" onclick="filterSelection('non-veg')"> NON-VEG</button>
+      <button class="btn" onclick="filterSelection('starter')"> STARTER</button>
+      <button class="btn" onclick="filterSelection('bevrages')"> BEVRAGES</button>
+      <button class="btn" onclick="filterSelection('icecream')"> ICE-CREAM PARLOR</button>
+    </div>
+
+    <!--Portfolio Gallery Grid -->
+    <div class="container">
+    <div class="row row-content">
+      <div class="column vegi col-sm-3">
+        <div class="content">
+          <img src="img/kaju_masala.jpg" alt="Kaju Masala" style="width:100%">
+          <h4>Kaju Masala</h4>
+          <p><i>MRP: 105/-</i></p>
+        </div>
+      </div>
+      <div class="column vegi col-sm-3">
+        <div class="content">
+        <img src="img/aloo_gobi.jpg" alt="Aloo Gobi" style="width:100%">
+          <h4>Aloo Gobi</h4>
+          <p><i>MRP: 80/-</i></p>
+        </div>
+      </div>
+      <div class="column vegi col-sm-3">
+        <div class="content">
+        <img src="img/bhendi_masala.jpg" alt="Bhendi Masala" style="width:100%">
+          <h4>Bhendi Masala</h4>
+          <p><i>MRP: 99/-</i></p>
+        </div>
+      </div>
+      
+      <div class="column non-veg col-sm-3">
+        <div class="content">
+          <img src="img/tandoori_chicken.jpg" alt="Tandoori Chicken" style="width:100%">
+          <h4>Tandoori Chicken</h4>
+          <p><i>MRP: 250/-</i></p>
+        </div>
+      </div>
+      <div class="column non-veg col-sm-3">
+        <div class="content">
+        <img src="img/irani_chicken.jpg" alt="Irani Chicken" style="width:100%">
+          <h4>Irani Chicken</h4>
+          <p><i>MRP: 375/-</i></p>
+        </div>
+      </div>
+      <div class="column non-veg col-sm-3">
+        <div class="content">
+        <img src="img/mutton_seekh_kabab.jpg" alt="Mutton Seekh Kabab" style="width:100%">
+          <h4>Mutton Seekh Kabab</h4>
+          <p><i>MRP: 275/-</i></p>
+        </div>
+      </div>
+
+      <div class="column starter col-sm-3">
+        <div class="content">
+          <img src="img/french_fries.jpg" alt="French Fries" style="width:100%">
+          <h4>French Fries</h4>
+          <p><i>MRP: 75/-</i></p>
+        </div>
+      </div>
+      <div class="column starter col-sm-3">
+        <div class="content">
+        <img src="img/fried_pickle_chips.jpeg" alt="Fried Pickle Chips" style="width:100%">
+          <h4>Fried Pickle Chips</h4>
+          <p><i>MRP: 150/-</i></p>
+        </div>
+      </div>
+      <div class="column starter col-sm-3">
+        <div class="content">
+        <img src="img/chicken_tender_and_fries.jpg" alt="Chicken Tender and Fries" style="width:100%">
+          <h4>Chicken Tender and Fries</h4>
+          <p><i>MRP: 225/-</i></p>
+        </div>
+      </div>
+
+      <div class="column starter col-sm-3">
+        <div class="content">
+          <img src="img/pretzel_sliders.jpeg" alt="Pretzel Sliders" style="width:100%">
+          <h4>Pretzel Sliders</h4>
+          <p><i>MRP: 195/-</i></p>
+        </div>
+      </div>
+      <div class="column starter col-sm-3">
+        <div class="content">
+        <img src="img/quesadilla.jpg" alt="Quesadilla" style="width:100%">
+          <h4>Quesadilla</h4>
+          <p><i>MRP: 365/-</i></p>
+        </div>
+      </div>
+      <div class="column bevrages col-sm-3">
+        <div class="content">
+        <img src="img/coke.jpg" alt="Coke" style="width:100%">
+          <h4>Coke</h4>
+          <p><i>MRP: 55/-</i></p>
+        </div>
+      </div>
+      <div class="column bevrages col-sm-3">
+        <div class="content">
+        <img src="img/taquila.jpg" alt="Taquila" style="width:100%">
+          <h4>Taquila</h4>
+          <p><i>MRP: 175/-</i></p>
+        </div>
+      </div>
+      <div class="column icecream col-sm-3">
+        <div class="content">
+          <img src="img/icecream.jpg" alt="Ice Cream" style="width:100%">
+          <h4>Ice Cream</h4>
+          <p><i>MRP: 45/-</i></p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </section>
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">             
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./aboutus.html">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="./contactus.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5">
+                    <h5>Our Address</h5>
+                    <address>
+                      121, Clear Water Bay Road<br>
+                      Clear Water Bay, Kowloon<br>
+                      HONG KONG<br>
+                      <i class="fa fa-phone fa-lg"></i> : +852 1234 5678<br>
+                      <i class="fa fa-fax fa-lg"></i> : +852 8765 4321<br>
+                      <i class="fa fa-envelope fa-lg"></i> : <a href="mailto:confusion@food.net">confusion@food.net</a>
+                   </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope fa-lg"></i></a>
+                    </div>
+                </div>
+           </div>
+           <div class="row justify-content-center">             
+                <div class="col-auto">
+                    <p>© Copyright 2018 Ristorante Con Fusion</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        filterSelection("all") // Execute the function and show all columns
+        function filterSelection(c) 
+        {
+          var x, i;
+          x = document.getElementsByClassName("column");
+          if (c == "all") c = "";
+          // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+          for (i = 0; i < x.length; i++) 
+          {
+            w3RemoveClass(x[i], "show");
+            if (x[i].className.indexOf(c) > -1) 
+                w3AddClass(x[i], "show");
+          }
+        }
+
+        // Show filtered elements
+        function w3AddClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) {
+              element.className += " " + arr2[i];
+            }
+          }
+        }
+
+        // Hide elements that are not selected
+        function w3RemoveClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+              arr1.splice(arr1.indexOf(arr2[i]), 1);
+            }
+          }
+          element.className = arr1.join(" ");
+        }
+
+        // Add active class to the current button (highlight it)
+        var btnContainer = document.getElementById("myBtnContainer");
+        var btns = btnContainer.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function(){
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace("active","");
+            this.className += " active";
+          });
+        }
+    </script>
+</body>
+
+</html>
